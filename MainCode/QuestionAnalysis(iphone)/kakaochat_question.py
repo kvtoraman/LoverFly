@@ -63,8 +63,8 @@ for fname in os.listdir(dirName):
                         
                         day_list = time.split()
                         year = day_list[0][0:4]
-                        month = day_list[1].split('월')[0]
-                        day = day_list[2].split('일')[0]
+                        month = day_list[1].split('.')[0]
+                        day = day_list[2].split('.')[0]
                         uid = Users[user]       
                         try:
                                 hour =  day_list[4].split(':')[0]
