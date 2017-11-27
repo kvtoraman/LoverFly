@@ -38,8 +38,31 @@ previous_text=''
 r_rate = open(result_dirName+'r_rate.txt','w')
 
 t_idff  = open(result_dirName+'time_diff.txt','w')
+
+#code to detect format
+IPHONE = 1
+ANDROID = 0
+FORMAT = -1
+month_splitter = '월'
+day_splitter = '일'
+
+def find_format(day_list):
+        global FORMAT
+        global  month_splitter
+        global day_splitter
+
+        if day_list[0][-1] == '.':
+                FORMAT = IPHONE
+                month_splitter = '.'
+                day_splitter = '.'
+        else:
+                FORMAT = ANDROID
+                month_splitter = '월'
+                day_splitter = '일'
+
 for fname in os.listdir(dirName):
         print 'Now analyzing: ', fname  ## input files
+        FORMAT = -1
         
         for line in open(dirName+'/'+fname):
                 line = line.strip()
@@ -62,9 +85,11 @@ for fname in os.listdir(dirName):
                                 continue
                         
                         day_list = time.split()
+                        if(FORMAT == -1):
+                                find_format(day_list)
                         year = day_list[0][0:4]
-                        month = day_list[1].split('.')[0]
-                        day = day_list[2].split('.')[0]
+                        month = day_list[1].split(month_splitter)[0]
+                        day = day_list[2].split(day_splitter)[0]
                         uid = Users[user]       
                         try:
                                 hour =  day_list[4].split(':')[0]
@@ -91,6 +116,7 @@ for fname in os.listdir(dirName):
                                         
                         except Exception, e:
                                 print e, hour
+                                time_info = 0
 
 
                         if date not in Time:

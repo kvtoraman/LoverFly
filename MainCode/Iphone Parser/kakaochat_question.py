@@ -13,7 +13,7 @@ Users = {}
 user_num = 1
 
 
-dirName = './'   ######### Modify the address where you put your data
+dirName = './mixed_data/'   ######### Modify the address where you put your data
 
 Daily = {}
 Hour = {}
@@ -56,7 +56,8 @@ def find_format(day_list):
 
 for fname in os.listdir(dirName):
 	print 'Now analyzing: ', fname  ## input files
-	
+	global FORMAT
+	FORMAT = -1
 	for line in open(dirName+fname):
 		line = line.strip()
 		
@@ -137,8 +138,8 @@ for fname in os.listdir(dirName):
 				last_message_time = time_info
 				previous_user = current_user
 				print >> t_idff, time_diff
-				#if('?' in text):
-                                #        print >> r_rate, time_diff
+				if('?' in text):
+					print >> r_rate, time_diff
 			
 		elif line=='':
 			current_user  = ''
