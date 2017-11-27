@@ -1,135 +1,135 @@
-user2 2017-01-16	Mon	16	3 Question: 며칠이써?? Answer: 오일?? 0:15:00
-user1 2017-01-16	Mon	17	2 Question: 저녁약속잇어? Answer: 웅 ㅜ딱내일ㅋㅋㅋㅋㅋ 0:01:00
-user3 2017-01-22	Sun	22	3 Question: 근데 마리 걔가 왜 마리인척을 한거야? Answer: 살려고? 0:08:00
-user1 2017-01-22	Sun	22	3 Question: 살려고? Answer: ㅋㅋㅋㅋㅋㅋ 0:05:00
-user3 2017-01-27	Fri	15	2 Question: 너도착햇겟네그럼?? Answer: 완전...ㅎㅎ 0:08:00
-user1 2017-01-27	Fri	21	1 Question: 희주 오버워치해??ㅋㅋㅋ Answer: ㅋㅋㅋㅋㅋㅋㅋㅋㅋ그거한판해봣는데 재미업던데ㅠㅠ 0:12:00
-user3 2017-02-07	Tue	17	2 Question: 헐 ㄷ ㄷ 부러웡 ㅠㅠ가족여행?? Answer: 아닝 친구들이랑ㅋㅋㅋ 0:01:00
-user3 2017-02-07	Tue	18	2 Question: 오오 며칠?! Answer: 5일!!!! 0:01:00
-user3 2017-02-10	Fri	23	2 Question: 이거익숙해지지?ㅠㅠㅠ Answer: 그거 첫날에 엄청 아프자나 0:00:00
-user3 2017-02-14	Tue	22	2 Question: 새린아방언제ㅉ빼?? Answer: (이모티콘) 0:01:00
-user2 2017-02-15	Wed	17	1 Question: 내성적인 보스 재밌어?? Answer: 그거 세린이가봤을걸?? 14:51:00
-user1 2017-02-27	Mon	10	2 Question: 너네 어디서 끝나? Answer: 난 창의관인데 알고보니 같이듣는사람있어서 같이먹을수도있겟당 ㅠㅠㅋㅋㅋ 0:11:00
-user1 2017-02-28	Tue	15	3 Question: 언제쯤 먹을거야? Answer: 6시?? 0:03:00
-user3 2017-02-28	Tue	15	3 Question: 6시?? Answer: 오키! 0:01:00
-user2 2017-02-28	Tue	17	2 Question: 어디갈거야? Answer: 몰랔ㅋㅋ카마? 0:01:00
-user1 2017-02-28	Tue	17	3 Question: 몰랔ㅋㅋ카마? Answer: 그랭 0:00:00
-user2 2017-03-03	Fri	10	2 Question: 정지원 교수님이 외국분이셨어?? Answer: ㅋㄱㅋㄱㅋㅋ누구신데 0:10:00
-user3 2017-03-03	Fri	14	2 Question: 그거숙제없지않아??그래두?? Answer: 이번에 시험도 본디ㅢㅠ 0:24:00
-user1 2017-03-06	Mon	11	2 Question: 희주 오늘 수업 안감?? Answer: 희주오늘9시수업하나랫는뎁 0:34:00
-user1 2017-03-06	Mon	17	2 Question: 아피엘들아봤어?? Answer: 웅오늘ㅋㅋ 0:00:00
-user1 2017-03-06	Mon	17	2 Question: 뭐배워??? Answer: 첫 2주동안은 pp에서 한학기동안배운거 배운대 0:00:00
-user2 2017-03-06	Mon	17	3 Question: 페퍼스레스토랑 열었나? Answer: 아니그거10일부터 0:02:00
-user2 2017-03-09	Thu	15	2 Question: 왱?? Answer: 놀자할려햇지~~ 0:03:00
-user1 2017-03-09	Thu	15	3 Question: 담주주말도안돼??! Answer: 담주주말 지금은 괜찮을것같은데 0:00:00
-user2 2017-03-09	Thu	15	3 Question: 평일엔 안되는겨?ㅠ Answer: 나담주편일은 0:02:00
-user3 2017-03-09	Thu	17	3 Question: 5시쯤은어때? Answer: 아마 될듯! 0:00:00
-user3 2017-03-09	Thu	17	3 Question: 화욜저녁 기? Answer: 일단 다담주 주말에 약속 잡아놓자! 0:00:00
-user2 2017-03-09	Thu	17	3 Question: 그주말? Answer: 아니 18일... 0:00:00
-user2 2017-03-12	Sun	15	1 Question: 나 지금 점심먹어서ㅋㅋㅋㅋ저녁  좀 늦게 먹을래??ㅎㅎ Answer: 우리오늘이여ㅛ야?? 0:49:00
-user1 2017-03-12	Sun	15	2 Question: 우리오늘이여ㅛ야?? Answer: 화욜!ㅋㅋ 0:01:00
-user1 2017-03-12	Sun	16	1 Question: 오늘은 아니야?? Answer: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 0:26:00
-user2 2017-03-13	Mon	22	2 Question: 희주 스팍스 면접봤오? Answer: 웅ㅋㅋㅋㅋ 0:22:00
-user2 2017-03-13	Mon	22	2 Question: 우리 낼 저녁약속인가? Answer: 웅! 0:01:00
-user3 2017-03-14	Tue	0	3 Question: 낼수업몇시끝나?? Answer: 나 낼 4시1 0:00:00
-user1 2017-03-14	Tue	0	3 Question: 밥먹는거어떰? Answer: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 0:00:00
-user3 2017-03-14	Tue	16	2 Question: 출발햇어??? Answer: 지금 피부과 기다리고있으 0:00:00
-user3 2017-03-14	Tue	18	1 Question: 너빨리돌아와야댕!? Answer: ㅋㅋㅋㅋㅋㅋㅋ아니 그건 아닌데ㅋㅋㅋ 0:02:00
-user2 2017-03-14	Tue	18	2 Question: 탄거야?? Answer: 셔틀다섯시까지아니엇어?! 0:04:00
-user3 2017-03-14	Tue	18	2 Question: 셔틀다섯시까지아니엇어?! Answer: 몰라ㅋㅋㅋㅋ 0:01:00
-user3 2017-03-16	Thu	15	2 Question: 헐 설리랑 최자랑 헤어졋음..? Answer: ㅇㅇㅇ 0:02:00
-user2 2017-03-25	Sat	17	3 Question: ㅋㅋㅋ이제 다큐멘트써야해 코드 설명,,?하는 그런거 ㅋㅋㅋ Answer: 아니뭐래니 0:01:00
-user1 2017-03-29	Wed	17	2 Question: 희주 전화안받는뎅?ㅋㅋㅋㅋ Answer: 뀨 0:00:00
-user3 2017-03-29	Wed	17	3 Question: 나지금일어났는뎅먼저갈래?? Answer: ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 0:01:00
-user2 2017-03-29	Wed	17	3 Question: ? Answer: 그러니까! 0:00:00
-user2 2017-03-29	Wed	18	2 Question: 나 짐 챙겨가? Answer: 뭔짐? 0:02:00
-user3 2017-03-29	Wed	18	2 Question: 노트북?! Answer: 세리나 고기파티 지금 가도돼? 0:09:00
-user1 2017-03-29	Wed	18	3 Question: 세리나 고기파티 지금 가도돼? Answer: 응!! 0:01:00
-user1 2017-03-29	Wed	18	3 Question: 어디로 가? Answer: 카이그릴! 0:06:00
-user3 2017-03-30	Thu	0	2 Question: 희워니는다햇어? Answer: 예쓰 0:05:00
-user1 2017-03-31	Fri	13	1 Question: 휴학하는건 결정했어? Answer: 항 ㅠㅠㅠㅠ그렇군 ㅠㅠㅠ 1:38:00
-user2 2017-03-31	Fri	17	2 Question: 요거야? Answer: 웅 0:04:00
-user2 2017-04-04	Tue	13	2 Question: 희주야 이거가능하지??ㅋㅋㅋ Answer: 웅근데 이게 모얖? 0:05:00
-user1 2017-04-04	Tue	13	2 Question: 웅근데 이게 모얖? Answer: 나두몰라 ㅋㅋㅋㅋ 학생회알못 ㅋㅋㅋㅋㅋㅋㅋㅋ 0:02:00
-user1 2017-04-04	Tue	13	2 Question: ㅋㅋ와그럼너랑같은조야?! Answer: 아니난이미짜졋어 ㅋㅋㅋㅋ 0:03:00
-user1 2017-04-07	Fri	17	3 Question: 월욜 ㄱ? Answer: 앙대 0:00:00
-user2 2017-04-07	Fri	19	2 Question: 그럼 목욜..?? Answer: 난다됌~~ 0:12:00
-user2 2017-04-07	Fri	23	2 Question: 희주 캄프보러감?? Answer: 웅ㅋㅋㅋ 0:30:00
-user2 2017-04-07	Fri	23	2 Question: 지금은 모해? Answer: 나집갘ㅋㅋㅋ 0:03:00
-user1 2017-04-08	Sat	2	2 Question: 금욜..??ㅎㅎ Answer: 맞았어 0:43:00
-user3 2017-04-10	Mon	15	2 Question: ㅋㅋ언제필요해? Answer: 지금ㅋㅋㅋㅈㄱ 0:00:00
-user1 2017-04-19	Wed	19	2 Question: 헐셤끜났어?? Answer: 아니 낼 오에스하나남아쪙ㅋㅋㅋ 0:05:00
-user3 2017-04-20	Thu	6	2 Question: 허덕이는거야? Answer: 오늘 가입했어ㅋㅋㅋ 0:02:00
-user3 2017-04-25	Tue	13	2 Question: 이번주아님다음쥬??!? Answer: 난 거의 다 됨ㅋㅋㅋㅋ 0:19:00
-user3 2017-04-25	Tue	13	3 Question: ㅋㅋㅋㅋ낼 ㄱㄱ?? Answer: 쪼아 0:05:00
-user3 2017-04-25	Tue	15	2 Question: 이번주토요일은어땡?? Answer: 토욜에 교양답사^^ㅠ 0:01:00
-user1 2017-04-27	Thu	21	3 Question: 얘두라모해?!? Answer: 과ㅏ제ㅔㅔ 0:00:00
-user3 2017-04-30	Sun	17	2 Question: ㅋㅋㅋ어디야??나 교분맞는데 ㅋㅋㅋㅋ Answer: 1층ㅋㅋㅋㅋ 0:01:00
-user2 2017-05-01	Mon	18	3 Question: ㅋㅋㅋㅋㅋㅋㅋ어디야?? Answer: ㅋㄱㅋㅋㅋ세리니동아리 0:03:00
-user3 2017-05-02	Tue	15	2 Question: 5시반 택승? Answer: 5시오땡! 0:04:00
-user3 2017-05-02	Tue	15	2 Question: ㅋㅋㅋ10분 콜?? Answer: 구랭 0:02:00
-user3 2017-05-02	Tue	22	2 Question: 재미써? Answer: 웅ㅋㅋㅋ 0:03:00
-user1 2017-05-17	Wed	15	3 Question: 주말은? Answer: 집가... 0:02:00
-user3 2017-05-17	Wed	15	3 Question: 29-6/2은어때? Answer: 되긴됑! 0:01:00
-user3 2017-05-17	Wed	15	3 Question: 근데우리기말언제야? Answer: (이모티콘) 0:01:00
-user1 2017-05-17	Wed	16	3 Question: 학식 먹을 사람?? Answer: ㅋㅋㅋㅋㅋㅋㅋ 0:06:00
-user2 2017-05-19	Fri	21	2 Question: 얘드라 다음주 금요일에 모해?? Answer: 난수업이얌... 0:09:00
-user2 2017-05-19	Fri	21	3 Question: 왱? Answer: 왱 왜유왱 0:04:00
-user3 2017-05-20	Sat	22	2 Question: 공연내일이얌?? Answer: 웅웅 0:08:00
-user1 2017-05-21	Sun	2	2 Question: ? Answer: 내일 루나틱 볼수있을듯ㅋㅋ 0:03:00
-user1 2017-05-21	Sun	3	1 Question: 그거무서운거야? Answer: 우웅ㅇ 0:03:00
-user2 2017-05-21	Sun	22	1 Question: 공연어디야?? Answer: 태울관아닐까? 0:10:00
-user1 2017-05-21	Sun	22	2 Question: 태울관아닐까? Answer: 히쥬 먼저 가있어...ㅋㅋㅋ 0:00:00
-user1 2017-05-21	Sun	22	3 Question: 어디롱? Answer: 나맨뒤에서맀러 0:03:00
-user3 2017-05-21	Sun	23	1 Question: 희워나 너남자친구도 공연햇엎?? Answer: 웅웅 0:18:00
-user2 2017-05-24	Wed	19	3 Question: 몇곡부름? Answer: 내곡 0:02:00
-user2 2017-05-24	Wed	20	3 Question: 봤어?? Answer: ㅏ니.. 0:00:00
-user1 2017-05-24	Wed	21	2 Question: 무서워서..? Answer: 웅좀잔인해서?ㅋㅋㅋ 0:01:00
-user2 2017-05-24	Wed	21	2 Question: 웅좀잔인해서?ㅋㅋㅋ Answer: 헐 0:00:00
-user1 2017-05-24	Wed	21	3 Question: 볼만해?? Answer: 웅웅일단 0:02:00
-user2 2017-05-24	Wed	21	3 Question: 희주 케이버드 주점에 고기파나? Answer: 웅웅 0:09:00
-user2 2017-05-25	Thu	15	1 Question: 학식?? Answer: 난 저녁은 약속잇어ㅠㅠ 0:22:00
-user3 2017-05-28	Sun	18	2 Question: 얘들아 뭐가예뻐? Answer: 음...난 1번! 0:04:00
-user2 2017-05-28	Sun	20	2 Question: 근데 우리 화욜날 갈수있어..?? Answer: 그까... 0:12:00
-user1 2017-05-28	Sun	20	3 Question: 근디 혹시 화욜말고 수목도돼?? Answer: ㅋㅋㅋ 0:01:00
-user1 2017-05-29	Mon	21	1 Question: 네시반?? Answer: 4시40분 쪽문?! 0:38:00
-user2 2017-05-29	Mon	21	2 Question: 4시40분 쪽문?! Answer: 난갠춘! 0:02:00
-user2 2017-05-29	Mon	21	3 Question: 어은동가게?? Answer: 뭐먹을거야?!?근데?? 0:02:00
-user1 2017-05-30	Tue	2	2 Question: 헐 아님 고기 먹을래?? Answer: 궁동이야?? 0:02:00
-user2 2017-05-30	Tue	10	3 Question: 닭발먹을수있을까..?한번도 안먹어봐서 ㅋㅋㅋㅋ Answer: 헝.. 0:09:00
-user2 2017-05-30	Tue	14	1 Question: 그럼 궁동 고ㅗ고? Answer: 웅웅 2:54:00
-user1 2017-05-30	Tue	14	2 Question: 몇시만날까? Answer: 난아마 궁동가있을것같앙 0:03:00
-user1 2017-05-30	Tue	14	2 Question: 아그랭?? Answer: 웅 증명사진 찍어야해서 0:00:00
-user2 2017-05-30	Tue	15	2 Question: 근데 닭발 어디서 팔아? Answer: 한신포타' 0:00:00
-user2 2017-05-30	Tue	15	2 Question: 구럼 한신포차?? Answer: 웅웅! 0:03:00
-user3 2017-05-30	Tue	16	2 Question: 우리택시탈수잇을까? Answer: 웅ㅂ1 0:15:00
-user1 2017-05-30	Tue	17	3 Question: 택승이야? Answer: 나눈로데오거리얌 0:04:00
-user3 2017-06-03	Sat	15	1 Question: 얘들아 둔산동 미용실 어디가조아?? Answer: 몰라...ㅋㅋㅋㅋㅋㅋ 0:22:00
-user1 2017-06-14	Wed	18	2 Question: 시험 끝났어?? Answer: 아닐걸?! 0:01:00
-user1 2017-06-16	Fri	3	2 Question: 언제왕? Answer: ㅋㅋㅋ구랭 0:02:00
-user2 2017-06-16	Fri	3	3 Question: 헐내일밤에모봐? Answer: 알고갱 0:00:00
-user1 2017-06-16	Fri	3	3 Question: 구럼 너네 둘이라도 먹을램? Answer: 희주도 내일밤에끝난다는뎁... 0:00:00
-user3 2017-06-16	Fri	3	3 Question: 아 토요일? 토욜점심 괜춘! Answer: 그럼 나도 점심먹고 출발하면 될둣! 0:00:00
-user3 2017-06-16	Fri	18	1 Question: 섀도우팔레트 샀어?? Answer: 아니ㅋㅋㅋㄱ 0:28:00
-user2 2017-06-16	Fri	18	3 Question: 얘들아 내일 뚜바비앙 어때?! 어은동 브런치카페인데 짱맛있대!! Answer: 오조앙'ㅜ 0:02:00
-user2 2017-06-16	Fri	18	3 Question: ㅢ워나 맛있어?? Answer: 미친ㅋㄲㅋㅋㅋㅋ개웃곀ㄱㅋㄱㅋㅋ 0:02:00
-user1 2017-06-16	Fri	18	3 Question: 맛잇어? Answer: 나아직안니욋어 0:00:00
-user2 2017-06-16	Fri	18	3 Question: 희워나 맛잇어? Answer: ㅋㄱㅋㄱㅋㄱㅋ맛잇어? 0:00:00
-user3 2017-06-17	Sat	0	2 Question: 또할수잇어? Answer: 투표 종료ㅠ 0:01:00
-user3 2017-06-17	Sat	1	3 Question: 재환이떨어졋어?? Answer: 재환이ㅡ... 0:00:00
-user3 2017-06-17	Sat	1	3 Question: 지금은?? Answer: 6위 발표중 0:01:00
-user3 2017-06-17	Sat	1	3 Question: 재환이상위권아냐? Answer: 11등 안에 들어본적 없을걸ㅠ 0:00:00
-user3 2017-06-17	Sat	1	3 Question: 발표해주는거야? Answer: 10위부터 0:01:00
-user3 2017-06-17	Sat	1	3 Question: 무슨일일어낫어???ㅋㅋㅋ Answer: ㅁㅊ 0:00:00
-user3 2017-06-17	Sat	1	3 Question: 안형섭은?? Answer: 아직ㅠ 0:03:00
-user3 2017-06-17	Sat	1	3 Question: 희워나 강다니엘은? Answer: 아직 안나왔쳐 0:01:00
-user2 2017-06-17	Sat	2	3 Question: 누구ㅜ구남음? Answer: 정새운 0:00:00
-user1 2017-06-17	Sat	2	3 Question: 야우리내일 몇시에봐?... Answer: ㅋㅋㅋㅋㅋㅋㅋ 0:02:00
-user3 2017-06-17	Sat	13	2 Question: 3~4시어떠세용?.? Answer: ㅋㅋㅋㅋㅋㅋㄱㅋ 0:04:00
-user2 2017-06-17	Sat	14	1 Question: 3시반 ㄲ?ㅎㅎ Answer: ㄱ? 0:04:00
-user3 2017-06-17	Sat	15	2 Question: ㅋㅋ6시? Answer: 30분 택승 0:11:00
-user3 2017-06-17	Sat	19	2 Question: 뭘로삼?? Answer: 아리따움 뭐시기 0:03:00
-user3 2017-06-29	Thu	20	2 Question: 왜이전룸메바꾼댕?!? Answer: 룸메 휴학한다고해싀ㅠ 0:03:00
-user2 2017-07-02	Sun	18	3 Question: 김혜연? Answer: 모르는애얌> 0:01:00
-user3 2017-07-02	Sun	18	3 Question: ? Answer: 웅ㅋㅋㅋㅋ 0:06:00
-user3 2017-07-02	Sun	18	3 Question: 희워나교양모듣게? Answer: 나 일단 매스커뮤랑 0:02:00
+user2 2017-01-16	Mon	hour:16		response time:  0:15:00
+user1 2017-01-16	Mon	hour:17		response time:  0:01:00
+user3 2017-01-22	Sun	hour:22		response time:  0:08:00
+user1 2017-01-22	Sun	hour:22		response time:  0:05:00
+user3 2017-01-27	Fri	hour:15		response time:  0:08:00
+user1 2017-01-27	Fri	hour:21		response time:  0:12:00
+user3 2017-02-07	Tue	hour:17		response time:  0:01:00
+user3 2017-02-07	Tue	hour:18		response time:  0:01:00
+user3 2017-02-10	Fri	hour:23		response time:  0:00:00
+user3 2017-02-14	Tue	hour:22		response time:  0:01:00
+user2 2017-02-15	Wed	hour:17		response time:  14:51:00
+user1 2017-02-27	Mon	hour:10		response time:  0:11:00
+user1 2017-02-28	Tue	hour:15		response time:  0:03:00
+user3 2017-02-28	Tue	hour:15		response time:  0:01:00
+user2 2017-02-28	Tue	hour:17		response time:  0:01:00
+user1 2017-02-28	Tue	hour:17		response time:  0:00:00
+user2 2017-03-03	Fri	hour:10		response time:  0:10:00
+user3 2017-03-03	Fri	hour:14		response time:  0:24:00
+user1 2017-03-06	Mon	hour:11		response time:  0:34:00
+user1 2017-03-06	Mon	hour:17		response time:  0:00:00
+user1 2017-03-06	Mon	hour:17		response time:  0:00:00
+user2 2017-03-06	Mon	hour:17		response time:  0:02:00
+user2 2017-03-09	Thu	hour:15		response time:  0:03:00
+user1 2017-03-09	Thu	hour:15		response time:  0:00:00
+user2 2017-03-09	Thu	hour:15		response time:  0:02:00
+user3 2017-03-09	Thu	hour:17		response time:  0:00:00
+user3 2017-03-09	Thu	hour:17		response time:  0:00:00
+user2 2017-03-09	Thu	hour:17		response time:  0:00:00
+user2 2017-03-12	Sun	hour:15		response time:  0:49:00
+user1 2017-03-12	Sun	hour:15		response time:  0:01:00
+user1 2017-03-12	Sun	hour:16		response time:  0:26:00
+user2 2017-03-13	Mon	hour:22		response time:  0:22:00
+user2 2017-03-13	Mon	hour:22		response time:  0:01:00
+user3 2017-03-14	Tue	hour:0		response time:  0:00:00
+user1 2017-03-14	Tue	hour:0		response time:  0:00:00
+user3 2017-03-14	Tue	hour:16		response time:  0:00:00
+user3 2017-03-14	Tue	hour:18		response time:  0:02:00
+user2 2017-03-14	Tue	hour:18		response time:  0:04:00
+user3 2017-03-14	Tue	hour:18		response time:  0:01:00
+user3 2017-03-16	Thu	hour:15		response time:  0:02:00
+user2 2017-03-25	Sat	hour:17		response time:  0:01:00
+user1 2017-03-29	Wed	hour:17		response time:  0:00:00
+user3 2017-03-29	Wed	hour:17		response time:  0:01:00
+user2 2017-03-29	Wed	hour:17		response time:  0:00:00
+user2 2017-03-29	Wed	hour:18		response time:  0:02:00
+user3 2017-03-29	Wed	hour:18		response time:  0:09:00
+user1 2017-03-29	Wed	hour:18		response time:  0:01:00
+user1 2017-03-29	Wed	hour:18		response time:  0:06:00
+user3 2017-03-30	Thu	hour:0		response time:  0:05:00
+user1 2017-03-31	Fri	hour:13		response time:  1:38:00
+user2 2017-03-31	Fri	hour:17		response time:  0:04:00
+user2 2017-04-04	Tue	hour:13		response time:  0:05:00
+user1 2017-04-04	Tue	hour:13		response time:  0:02:00
+user1 2017-04-04	Tue	hour:13		response time:  0:03:00
+user1 2017-04-07	Fri	hour:17		response time:  0:00:00
+user2 2017-04-07	Fri	hour:19		response time:  0:12:00
+user2 2017-04-07	Fri	hour:23		response time:  0:30:00
+user2 2017-04-07	Fri	hour:23		response time:  0:03:00
+user1 2017-04-08	Sat	hour:2		response time:  0:43:00
+user3 2017-04-10	Mon	hour:15		response time:  0:00:00
+user1 2017-04-19	Wed	hour:19		response time:  0:05:00
+user3 2017-04-20	Thu	hour:6		response time:  0:02:00
+user3 2017-04-25	Tue	hour:13		response time:  0:19:00
+user3 2017-04-25	Tue	hour:13		response time:  0:05:00
+user3 2017-04-25	Tue	hour:15		response time:  0:01:00
+user1 2017-04-27	Thu	hour:21		response time:  0:00:00
+user3 2017-04-30	Sun	hour:17		response time:  0:01:00
+user2 2017-05-01	Mon	hour:18		response time:  0:03:00
+user3 2017-05-02	Tue	hour:15		response time:  0:04:00
+user3 2017-05-02	Tue	hour:15		response time:  0:02:00
+user3 2017-05-02	Tue	hour:22		response time:  0:03:00
+user1 2017-05-17	Wed	hour:15		response time:  0:02:00
+user3 2017-05-17	Wed	hour:15		response time:  0:01:00
+user3 2017-05-17	Wed	hour:15		response time:  0:01:00
+user1 2017-05-17	Wed	hour:16		response time:  0:06:00
+user2 2017-05-19	Fri	hour:21		response time:  0:09:00
+user2 2017-05-19	Fri	hour:21		response time:  0:04:00
+user3 2017-05-20	Sat	hour:22		response time:  0:08:00
+user1 2017-05-21	Sun	hour:2		response time:  0:03:00
+user1 2017-05-21	Sun	hour:3		response time:  0:03:00
+user2 2017-05-21	Sun	hour:22		response time:  0:10:00
+user1 2017-05-21	Sun	hour:22		response time:  0:00:00
+user1 2017-05-21	Sun	hour:22		response time:  0:03:00
+user3 2017-05-21	Sun	hour:23		response time:  0:18:00
+user2 2017-05-24	Wed	hour:19		response time:  0:02:00
+user2 2017-05-24	Wed	hour:20		response time:  0:00:00
+user1 2017-05-24	Wed	hour:21		response time:  0:01:00
+user2 2017-05-24	Wed	hour:21		response time:  0:00:00
+user1 2017-05-24	Wed	hour:21		response time:  0:02:00
+user2 2017-05-24	Wed	hour:21		response time:  0:09:00
+user2 2017-05-25	Thu	hour:15		response time:  0:22:00
+user3 2017-05-28	Sun	hour:18		response time:  0:04:00
+user2 2017-05-28	Sun	hour:20		response time:  0:12:00
+user1 2017-05-28	Sun	hour:20		response time:  0:01:00
+user1 2017-05-29	Mon	hour:21		response time:  0:38:00
+user2 2017-05-29	Mon	hour:21		response time:  0:02:00
+user2 2017-05-29	Mon	hour:21		response time:  0:02:00
+user1 2017-05-30	Tue	hour:2		response time:  0:02:00
+user2 2017-05-30	Tue	hour:10		response time:  0:09:00
+user2 2017-05-30	Tue	hour:14		response time:  2:54:00
+user1 2017-05-30	Tue	hour:14		response time:  0:03:00
+user1 2017-05-30	Tue	hour:14		response time:  0:00:00
+user2 2017-05-30	Tue	hour:15		response time:  0:00:00
+user2 2017-05-30	Tue	hour:15		response time:  0:03:00
+user3 2017-05-30	Tue	hour:16		response time:  0:15:00
+user1 2017-05-30	Tue	hour:17		response time:  0:04:00
+user3 2017-06-03	Sat	hour:15		response time:  0:22:00
+user1 2017-06-14	Wed	hour:18		response time:  0:01:00
+user1 2017-06-16	Fri	hour:3		response time:  0:02:00
+user2 2017-06-16	Fri	hour:3		response time:  0:00:00
+user1 2017-06-16	Fri	hour:3		response time:  0:00:00
+user3 2017-06-16	Fri	hour:3		response time:  0:00:00
+user3 2017-06-16	Fri	hour:18		response time:  0:28:00
+user2 2017-06-16	Fri	hour:18		response time:  0:02:00
+user2 2017-06-16	Fri	hour:18		response time:  0:02:00
+user1 2017-06-16	Fri	hour:18		response time:  0:00:00
+user2 2017-06-16	Fri	hour:18		response time:  0:00:00
+user3 2017-06-17	Sat	hour:0		response time:  0:01:00
+user3 2017-06-17	Sat	hour:1		response time:  0:00:00
+user3 2017-06-17	Sat	hour:1		response time:  0:01:00
+user3 2017-06-17	Sat	hour:1		response time:  0:00:00
+user3 2017-06-17	Sat	hour:1		response time:  0:01:00
+user3 2017-06-17	Sat	hour:1		response time:  0:00:00
+user3 2017-06-17	Sat	hour:1		response time:  0:03:00
+user3 2017-06-17	Sat	hour:1		response time:  0:01:00
+user2 2017-06-17	Sat	hour:2		response time:  0:00:00
+user1 2017-06-17	Sat	hour:2		response time:  0:02:00
+user3 2017-06-17	Sat	hour:13		response time:  0:04:00
+user2 2017-06-17	Sat	hour:14		response time:  0:04:00
+user3 2017-06-17	Sat	hour:15		response time:  0:11:00
+user3 2017-06-17	Sat	hour:19		response time:  0:03:00
+user3 2017-06-29	Thu	hour:20		response time:  0:03:00
+user2 2017-07-02	Sun	hour:18		response time:  0:01:00
+user3 2017-07-02	Sun	hour:18		response time:  0:06:00
+user3 2017-07-02	Sun	hour:18		response time:  0:02:00

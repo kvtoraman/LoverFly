@@ -138,7 +138,8 @@ for fname in os.listdir(dirName):
                                 print >> t_idff, time_diff
                                 #print(previous_text.find('??'))
                                 if('?' in previous_text):
-                                        print >> r_rate, current_user, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+" Question:"+previous_text+" Answer:"+text,time_diff
+                                        #print >> r_rate, current_user, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+" Question:"+previous_text+" Answer:"+text,'\t'+'response time: ',time_diff
+                                        print >> r_rate, current_user, date+'\t'+'hour:'+hour+'\t'+'\t'+'response time: ',time_diff
                                 previous_text = text
                                 previous_user = current_user
                 elif line=='':
