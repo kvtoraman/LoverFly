@@ -69,6 +69,8 @@ for fname in os.listdir(dirName):
 
 	print 'Now analyzing: ', fname  ## input files
 	FORMAT = -1
+	
+	previous_user = ''
 
 	for line in open(dirName+'/'+fname):
 	        line = line.strip()
