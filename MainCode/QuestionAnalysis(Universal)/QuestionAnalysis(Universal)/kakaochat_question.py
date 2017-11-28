@@ -170,7 +170,8 @@ for fname in os.listdir(dirName):
 
 	f = open(result_dirName + fname + '_hourly_katalk_conversation_freq.txt','w')
 	f_daily = open(result_dirName + fname + '_daily_katalk_conversation_freq.txt','w')
-	for date in Time:
+	for _key, _value in sorted(Time.items()):
+	        date = _key
 	        daily_num = 0
 	        daily_user = {}
 	        for hour in Time[date]:
