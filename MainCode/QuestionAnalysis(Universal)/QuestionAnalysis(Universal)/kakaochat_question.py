@@ -71,7 +71,9 @@ for fname in os.listdir(dirName):
 	FORMAT = -1
 	
 	previous_user = ''
-
+	#print headers
+	print >> r_rate, "user\tdata\tday\thour\ttime_diff"
+	                        
 	for line in open(dirName+'/'+fname):
 	        line = line.strip()
 	        
@@ -112,6 +114,8 @@ for fname in os.listdir(dirName):
 	                                        hour = '0'
 	                                day_time = hour
 
+	                        if len(hour) < 2:
+	                        	hour = "0" + hour
 	                        day_time = hour+':'+minute
 	                except Exception, e:
 	                        print e
@@ -159,7 +163,7 @@ for fname in os.listdir(dirName):
 
 	                        if('?' in previous_text):
 	                                #print >> r_rate, current_user, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+" Question:"+previous_text+" Answer:"+text,'\t'+'response time: ',time_diff
-	                                print >> r_rate, current_user, date+'\t'+'hour:'+hour,'\t'+'\t'+'response time: ',time_diff
+	                                print >> r_rate, current_user +'\t'+ str(date)+'\t'+ str(hour) + '\t' + str(time_diff)
 	                        previous_text = text
 	                        previous_user = current_user
 	        elif line=='':
@@ -170,11 +174,15 @@ for fname in os.listdir(dirName):
 
 	f = open(result_dirName + fname + '_hourly_katalk_conversation_freq.txt','w')
 	f_daily = open(result_dirName + fname + '_daily_katalk_conversation_freq.txt','w')
-	for _key, _value in sorted(Time.items()):
+	
+	print >> f_daily, "date\tday\tusers#\tmessages#"
+	print >> f, "date\tday\thour\tusers#\tmessages#"
+	        
+	for _key in sorted(Time.keys()):
 	        date = _key
 	        daily_num = 0
 	        daily_user = {}
-	        for hour in Time[date]:
+	        for hour in sorted(Time[date].keys()):
 	                total_num = 0
 	                for uid in Time[date][hour]:
 	                        if uid not in daily_user:

@@ -1,10 +1,11 @@
-user5 2017-05-01	Mon	hour:20 		response time:  0:01:00
-user1 2017-05-22	Mon	hour:18 		response time:  0:04:00
-user10 2017-05-22	Mon	hour:18 		response time:  0:01:00
-user1 2017-05-22	Mon	hour:18 		response time:  0:04:00
-user1 2017-05-22	Mon	hour:18 		response time:  0:10:00
-user1 2017-06-03	Sat	hour:21 		response time:  0:09:00
-user1 2017-06-04	Sun	hour:13 		response time:  1:54:00
-user1 2017-06-29	Thu	hour:16 		response time:  0:01:00
-user1 2017-06-29	Thu	hour:16 		response time:  0:00:00
-user1 2017-06-29	Thu	hour:17 		response time:  0:03:00
+user	data	day	hour	time_diff
+user5	2017-05-01	Mon	20	0:01:00
+user1	2017-05-22	Mon	18	0:04:00
+user10	2017-05-22	Mon	18	0:01:00
+user1	2017-05-22	Mon	18	0:04:00
+user1	2017-05-22	Mon	18	0:10:00
+user1	2017-06-03	Sat	21	0:09:00
+user1	2017-06-04	Sun	13	1:54:00
+user1	2017-06-29	Thu	16	0:01:00
+user1	2017-06-29	Thu	16	0:00:00
+user1	2017-06-29	Thu	17	0:03:00
