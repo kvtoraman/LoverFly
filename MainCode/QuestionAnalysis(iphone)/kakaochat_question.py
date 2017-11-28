@@ -3,7 +3,7 @@
 
 #######################################################################
 # CTP472 Social Media and Culture
-# Author: Jaram Park (jaram.park@kaist.ac.kr)
+# Author: Jaram Park (jaram.park@kaist.ac.kr) & Team 1: Kamil, Insu Kim, 
 #######################################################################
 
 import re, sys, os
@@ -133,13 +133,6 @@ for fname in os.listdir(dirName):
                         # calc duration of one conversation unit
                         ####################################################
 
-                        
-                        #print('previous_text: '+previous_text)
-                        #print('text: '+text)
-                        
-                        #if('??' in text):
-                        #        print('common')
-                        #        print(text)
                         current_user = uid
                         if previous_user=='': ## first line
                                 previous_user = current_user
@@ -149,23 +142,16 @@ for fname in os.listdir(dirName):
                                 last_message_time = time_info
                                 previous_text=text
                                 previous_user = current_user
-                                #if('??' in text):
-                                #        print('current_user == previous_user')
-                                #        print(text)
-                
                                 
                         else:
-                                #if('??' in text):
-                                #        print('else')
-                                #        print(text)
                                 time_diff = time_info - last_message_time
                                 last_message_time = time_info
                                 
                                 print >> t_idff, time_diff
-                                #print(previous_text.find('??'))
+
                                 if('?' in previous_text):
                                         #print >> r_rate, current_user, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+" Question:"+previous_text+" Answer:"+text,'\t'+'response time: ',time_diff
-                                        print >> r_rate, current_user, date+'\t'+'hour:'+hour+'\t'+'\t'+'response time: ',time_diff
+                                        print >> r_rate, current_user, date+'\t'+'hour:'+hour,'\t'+'\t'+'response time: ',time_diff
                                 previous_text = text
                                 previous_user = current_user
                 elif line=='':
