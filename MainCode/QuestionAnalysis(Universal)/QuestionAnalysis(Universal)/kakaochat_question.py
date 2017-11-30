@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#coding: utf-8
+#-*-coding:utf-8-*-
 
 #######################################################################
 # CTP472 Social Media and Culture
@@ -12,6 +12,8 @@ from datetime import datetime, date, time
 
 import copy
 
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 
 Users = {}
 user_num = 1
@@ -34,6 +36,10 @@ time_diff=''
 
 ##Modifications
 
+def strip_one(s):
+    if s.endswith(" ") : s = s[:-1] #마지막이 " "임을 검사
+    if s.startswith(" ") : s = s[1:] #첫번째가 " "임을 검사
+    return s
 
 #code to detect format
 IPHONE = 1
@@ -41,7 +47,29 @@ ANDROID = 0
 FORMAT = -1
 month_splitter = '월'
 day_splitter = '일'
+print("Enter the name of kakaotalk ID you trying to analyze")
+protagonist = raw_input()
+inverseUsers = {}
+#protagonist = protagonist.decode('ascii').encode('utf-8')
+#protagonist = protagonist.decode('euc-kr')
 
+
+
+if str(type(protagonist)) == "<class 'bytes'>":
+    # only possible in Python 3
+    protagonist = protagonist.decode('ascii')  # or  s = str(s)[2:-1]
+elif str(type(protagonist)) == "<type 'unicode'>":
+    # only possible in Python 2
+    protagonist = str(protagonist)
+else:
+    protagonist = protagonist.decode('euc-kr')
+
+
+
+protagonist = protagonist.encode('utf-8')
+
+
+protagonist.strip()
 def find_format(day_list):
         global FORMAT
         global  month_splitter
@@ -85,12 +113,17 @@ for fname in os.listdir(dirName):
 	                        time = info[0]
 	                        try:
 	                                user = info[1]
+	                                #user.strip()
 	                        except:
 	                                continue
 	                        if user not in Users: #save speaker (it could be a peer or yourself)
 	                                uid = 'user'+str(user_num)
 	                                Users[user] = uid
 	                                user_num+=1
+	                                #inverseUsers[uid]=strip_one(user)
+	                                #user=user.encode('utf-8')
+	                                
+	                                inverseUsers[uid]=user.strip()
 	                except Exception, e:
 	                        continue
 	                
@@ -160,9 +193,21 @@ for fname in os.listdir(dirName):
 	                        last_message_time = time_info
 	                        
 	                        print >> t_diff, time_diff
+	                        #print("current_user")
+	                        #print((inverseUsers[current_user]))
+	                        #print(len(inverseUsers[current_user]))
+	                        #print("protagonist")
+	                        #print((protagonist))
+	                        #print(len(protagonist))
+	                        #if(inverseUsers[current_user] in protagonist):
+	                        #        print("Hit")
+                                    
+	                        
 
-	                        if('?' in previous_text):
+	                        if('?' in previous_text and inverseUsers[current_user]==protagonist):
+	                        #if('?' in previous_text):
 	                                #print >> r_rate, current_user, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+" Question:"+previous_text+" Answer:"+text,'\t'+'response time: ',time_diff
+                                        
 	                                print >> r_rate, current_user +'\t'+ str(date)+'\t'+ str(hour) + '\t' + str(time_diff)
 	                        previous_text = text
 	                        previous_user = current_user
@@ -192,6 +237,7 @@ for fname in os.listdir(dirName):
 	                
 	                print >> f, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+'\t'+str(total_num)
 	        print >> f_daily, date+'\t'+str(len(daily_user))+'\t'+str(daily_num)
+
 
 	f.close()
 	f_daily.close()
