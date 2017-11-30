@@ -230,11 +230,14 @@ for fname in os.listdir(dirName):
 	        for hour in sorted(Time[date].keys()):
 	                total_num = 0
 	                for uid in Time[date][hour]:
+	                 
 	                        if uid not in daily_user:
 	                                daily_user[uid] = ''
-	                        daily_num+=     Time[date][hour][uid]['num']
-	                        total_num += Time[date][hour][uid]['num']
-	                
+	                        if(inverseUsers[uid]==protagonist):
+	                                daily_num+=     Time[date][hour][uid]['num']
+	                                total_num += Time[date][hour][uid]['num']
+	                        
+	                #if(inverseUsers[current_user]==protagonist)
 	                print >> f, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+'\t'+str(total_num)
 	        print >> f_daily, date+'\t'+str(len(daily_user))+'\t'+str(daily_num)
 
