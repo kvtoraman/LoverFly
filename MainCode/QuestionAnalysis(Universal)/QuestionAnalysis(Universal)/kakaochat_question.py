@@ -23,12 +23,7 @@ dirName = './data'   ######### Modify the address where you put your data
 result_dirName ='./result'
 result_dirName = result_dirName + '/'
 
-Daily = {}
-Hour = {}
-WeekDay = {}
-Time = {}
 
-ConvDuration = []
 
 last_message_time = datetime.now()
 print last_message_time
@@ -87,13 +82,23 @@ def find_format(day_list):
                 #result_dirName ='./result(android)'
 
 
-response_rate=''
-previous_text=''
+
 
 
 for fname in os.listdir(dirName):
-	r_rate = open(result_dirName + fname + '_r_rate.txt','w')
-	t_diff  = open(result_dirName + fname + '_time_diff.txt','w')	
+	Daily = {}
+	Hour = {}
+	WeekDay = {}
+	Time = {}
+	response_rate=''
+	previous_text=''
+
+	ConvDuration = []
+
+        
+	
+	r_rate = open(result_dirName + fname[:-4] + '_r_rate.txt','w')
+		
 
 	print 'Now analyzing: ', fname  ## input files
 	FORMAT = -1
@@ -109,6 +114,7 @@ for fname in os.listdir(dirName):
 	                talk = line.split(':')  
 	                try:
 	                        text = talk[2]
+	                        
 	                        info = (talk[0]+':'+talk[1]).split(',') # split information into time and speaker
 	                        time = info[0]
 	                        try:
@@ -192,16 +198,7 @@ for fname in os.listdir(dirName):
 	                        time_diff = time_info - last_message_time
 	                        last_message_time = time_info
 	                        
-	                        print >> t_diff, time_diff
-	                        #print("current_user")
-	                        #print((inverseUsers[current_user]))
-	                        #print(len(inverseUsers[current_user]))
-	                        #print("protagonist")
-	                        #print((protagonist))
-	                        #print(len(protagonist))
-	                        #if(inverseUsers[current_user] in protagonist):
-	                        #        print("Hit")
-                                    
+	                        
 	                        
 
 	                        if('?' in previous_text and inverseUsers[current_user]==protagonist):
@@ -217,32 +214,44 @@ for fname in os.listdir(dirName):
 
     
 
-	f = open(result_dirName + fname + '_hourly_katalk_conversation_freq.txt','w')
-	f_daily = open(result_dirName + fname + '_daily_katalk_conversation_freq.txt','w')
+	f = open(result_dirName + fname[:-4] + '_hourly_katalk_conversation_freq.txt','w')
+	f_daily = open(result_dirName + fname[:-4] + '_daily_katalk_conversation_freq.txt','w')
 	
-	print >> f_daily, "date\tday\tusers#\tmessages#"
-	print >> f, "date\tday\thour\tusers#\tmessages#"
-	        
+	print >> f_daily, "date\tday\tusers#\tmessages#\tpercentage(%)"
+	print >> f, "date\tday\thour\tusers#\tmessages#\tpercentage(%)"
+
+	
 	for _key in sorted(Time.keys()):
 	        date = _key
-	        daily_num = 0
+	        daily_total_chat = 0
+	       
 	        daily_user = {}
+	        daily_user_chat = 0
+	        daily_total_chat = 0
+	        
+	        
 	        for hour in sorted(Time[date].keys()):
-	                total_num = 0
+	                hourly_user_chat = 0
+	                hourly_total_chat = 0
+	                hourly_user = {}
 	                for uid in Time[date][hour]:
 	                 
 	                        if uid not in daily_user:
-	                                daily_user[uid] = ''
+	                                hourly_user[uid] = ''
+	                                daily_user[uid]=''
 	                        if(inverseUsers[uid]==protagonist):
-	                                daily_num+=     Time[date][hour][uid]['num']
-	                                total_num += Time[date][hour][uid]['num']
+	                                daily_user_chat+=     Time[date][hour][uid]['num']
+	                                hourly_user_chat += Time[date][hour][uid]['num']
+	                                
+	                        hourly_total_chat +=Time[date][hour][uid]['num']
+	                        daily_total_chat += Time[date][hour][uid]['num']
 	                        
-	                #if(inverseUsers[current_user]==protagonist)
-	                print >> f, date+'\t'+hour+'\t'+str(len(Time[date][hour]))+'\t'+str(total_num)
-	        print >> f_daily, date+'\t'+str(len(daily_user))+'\t'+str(daily_num)
+	                
+	                print >> f, date+'\t'+hour+'\t'+str(len(hourly_user))+'\t'+str(hourly_user_chat)+'\t'+str(hourly_user_chat/hourly_total_chat*100)
+	        print >> f_daily, date+'\t'+str(len(daily_user))+str(daily_user_chat)+'\t'+str(daily_user_chat/daily_total_chat*100)
+
 
 
 	f.close()
 	f_daily.close()
-	t_diff.close()
 	r_rate.close()
