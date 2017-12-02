@@ -247,8 +247,8 @@ for fname in os.listdir(dirName):
 	                        daily_total_chat += Time[date][hour][uid]['num']
 	                        
 	                
-	                print >> f, date+'\t'+hour+'\t'+str(len(hourly_user))+'\t'+str(hourly_user_chat)+'\t'+str(hourly_user_chat/hourly_total_chat*100)
-	        print >> f_daily, date+'\t'+str(len(daily_user))+str(daily_user_chat)+'\t'+str(daily_user_chat/daily_total_chat*100)
+	                print >> f, date+'\t'+hour+'\t'+str(len(hourly_user))+'\t'+str(hourly_user_chat)+'\t'+str(int((float(hourly_user_chat)/float(hourly_total_chat))*100))
+	        print >> f_daily, date+'\t'+str(len(daily_user))+'\t'+str(daily_user_chat)+'\t'+str(int((float(daily_user_chat)/float(daily_total_chat))*100))
 
 
 
